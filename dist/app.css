@@ -26,17 +26,17 @@ nel terminale
 /* IMPORTS */
 /* Colors */
 .text {
-  color: #d0d0d0;
+  color: #f0f6ee;
 }
 
 .background {
-  background-color: #19212c !important;
+  background-color: #151b25 !important;
 }
 
 /* Font size */
 .h7 {
   font-size: 22.5px;
-  color: #d0d0d0;
+  color: #f0f6ee;
 }
 
 /* Alignment */
@@ -93,11 +93,11 @@ html {
 }
 
 body {
-  background-color: #19212c;
+  background-color: #151b25;
 }
 
 p, ul, li {
-  color: #d0d0d0;
+  color: #f0f6ee;
 }
 
 p {
@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #d0d0d0;
+  color: #f0f6ee;
   margin-bottom: 1.5rem;
 }
 
@@ -154,24 +154,24 @@ h6, .h6 {
 }
 
 .links a {
-  color: #d0d0d0;
+  color: #f0f6ee;
   text-decoration: none;
 }
 
 .brand-name {
-  color: #d0d0d0;
+  color: #f0f6ee;
   padding-left: 6rem;
   margin: 0rem;
 }
 
 .brand-name a {
-  color: #d0d0d0;
+  color: #f0f6ee;
   padding: 0rem;
   margin: 0rem;
 }
 
 .brand-name a:hover {
-  color: #d0d0d0;
+  color: #f0f6ee;
 }
 
 .title-container {
@@ -205,13 +205,13 @@ h6, .h6 {
 
 .button-link a {
   padding: 1.5px 3rem;
-  color: #d0d0d0;
+  color: #f0f6ee;
   text-decoration: none;
 }
 
 .button-link a:hover {
   text-decoration: none;
-  color: #d0d0d0;
+  color: #f0f6ee;
   text-decoration: none;
 }
 
@@ -221,7 +221,7 @@ h6, .h6 {
 
 .title-contents {
   font-size: 60px;
-  color: #d0d0d0;
+  color: #f0f6ee;
   text-align: center;
 }
 
@@ -253,7 +253,7 @@ h6, .h6 {
 
 .post-list a {
   text-decoration: none;
-  color: #d0d0d0;
+  color: #f0f6ee;
   font-size: 30px;
 }
 
@@ -279,7 +279,7 @@ h6, .h6 {
   padding: 5.5px;
   background-color: #0a9103;
   text-decoration: none;
-  color: #d0d0d0;
+  color: #f0f6ee;
   font-size: 22.5px;
 }
 

@@ -26,4 +26,84 @@ Troverai guide passo-passo per creare e personalizzare le tue texture pack, con 
 Pronto a creare la tua texture pack? Inizia con le mie guide e non esitare a contattarmi per qualsiasi domanda!
 -->
 
+<div class="section">
+    <div class="section-title">
+        Introduction
+    </div>
+
+    <div class="section-paragraph">
+        Ciao! Sono un ragazzo di 17 anni con una passione per Minecraft. <br>
+        Ho creato questo sito per aiutare chiunque voglia imparare a creare texture pack in modo semplice e accessibile.
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-paragraph">
+        
+    </div>
+
+    <div class="section-title">
+        
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-title">
+        
+    </div>
+
+    <div class="section-paragraph">
+
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-paragraph">
+        
+    </div>
+
+    <div class="section-title">
+        
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-title">
+        
+    </div>
+
+    <div class="section-paragraph">
+        
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-paragraph">
+        
+    </div>
+
+    <div class="section-title">
+        
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-title">
+        
+    </div>
+
+    <div class="section-paragraph">
+        
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-paragraph">
+        
+    </div>
+
+    <div class="section-title">
+        
+    </div>
+</div>
 <?php get_footer(); ?>

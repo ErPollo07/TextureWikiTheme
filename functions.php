@@ -88,7 +88,7 @@ function set_settings() {
     add_settings_field(
         'front_page_title',             // ID del campo
         'Titolo',                       // Etichetta del campo
-        'front_page_title_callback',    // Funzione di callback per la visualizzazione del campo
+        'void_callback',    // Funzione di callback per la visualizzazione del campo
         $setting_page_slug,             // Pagina in cui aggiungere il campo
         'front_page_section'            // ID della sezione a cui il campo appartiene
     );
@@ -108,7 +108,7 @@ function set_settings() {
 }
 add_action( 'admin_init', 'set_settings' );
 
-function desc_front_page_section() {}
+function void_callback() {}
 
 function front_page_title_callback() {
     $value = get_option( 'front_page_title' );
