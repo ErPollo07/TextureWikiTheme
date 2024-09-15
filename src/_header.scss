@@ -1,0 +1,38 @@
+
+@mixin dinamic-ul-row-gap($gap, $flex_dir) {
+    display: flex;
+    flex-direction: $flex_dir;
+    gap: $gap;
+}
+
+.container-links {
+    justify-content: flex-end !important;
+}
+
+.links {
+    @include dinamic-ul-row-gap(3.5rem, row);
+    padding: 3rem 0rem;
+    margin-right: 6rem;
+    list-style: none;
+}
+
+.links a {
+    color: $text;
+    text-decoration: none;
+}
+
+.brand-name {
+    color: $text;
+    padding-left: 6rem;
+    margin: 0rem;
+}
+
+.brand-name a {
+    color: $text;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.brand-name a:hover {
+    color: $text;
+}

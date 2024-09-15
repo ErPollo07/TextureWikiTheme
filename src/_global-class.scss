@@ -1,0 +1,70 @@
+
+
+/* Colors */
+.text {
+    color: $text;
+}
+
+.background {
+    background-color: $background !important;
+}
+
+/* Font size */
+.h7 {
+    font-size: $h7;
+    color: $text;
+}
+
+/* Alignment */
+.width-max {
+    width: 100%;
+}
+
+.inline {
+    display: inline;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-items-center {
+    display: flex;
+    align-items: center;
+}
+
+.align-content-center {
+    display: flex;
+    align-content: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+/* Spacing */
+.margin-none {
+    margin: 0;
+}
+
+/* Page and post classes */
+.page-cont {
+    justify-self: center;
+    width: 65%;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+/* SHORTCODES */
+.admin_email {
+    color: $text;
+}

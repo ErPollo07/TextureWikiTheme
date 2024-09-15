@@ -1,0 +1,296 @@
+/* In this file we write:
+    varibles;
+    file which needs to be imported;
+*/
+/* Installation guide:
+https://laravel-mix.com/docs/6.0/installation
+seguire questo link fino a step 2 completo
+poi creare il file webpack.mix.js
+scrivere dentro a quest'ultimo
+"""
+let mix = require('laravel-mix');
+
+mix
+ .js('src/app.js', 'dist')
+ .sass('src/app.scss', 'dist');
+"""
+
+Poi andare nel file package.json
+e scrivere nella sezione script (al posto di quello che c'e' gia' scrito)
+quello che c'e' scritto nella sezione after di questa pagnia
+https://laravel-mix.com/docs/6.0/upgrade
+Poi scrivere il comando >> npm run watch
+nel terminale
+*/
+/* VARIABLES */
+/* IMPORTS */
+/* Colors */
+.text {
+  color: #e6edf3;
+}
+
+.background {
+  background-color: #0d1117 !important;
+}
+
+/* Font size */
+.h7 {
+  font-size: 22.5px;
+  color: #e6edf3;
+}
+
+/* Alignment */
+.width-max {
+  width: 100%;
+}
+
+.inline {
+  display: inline;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-items-center {
+  display: flex;
+  align-items: center;
+}
+
+.align-content-center {
+  display: flex;
+  align-content: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+/* Spacing */
+.margin-none {
+  margin: 0;
+}
+
+/* Page and post classes */
+.page-cont {
+  justify-self: center;
+  width: 65%;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+/* SHORTCODES */
+.admin_email {
+  color: #e6edf3;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #0d1117;
+}
+
+p, ul, li {
+  color: #e6edf3;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+  padding-bottom: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #e6edf3;
+  margin-bottom: 1.5rem;
+}
+
+h1, .h1 {
+  font-size: 75px;
+}
+
+h2, .h2 {
+  font-size: 60px;
+  border-bottom: 1px solid #21262d;
+}
+
+h3, .h3 {
+  font-size: 52.5px;
+  border-bottom: 1px solid #21262d;
+}
+
+h4, .h4 {
+  font-size: 45px;
+}
+
+h5, .h5 {
+  font-size: 37.5px;
+}
+
+h6, .h6 {
+  font-size: 30px;
+}
+
+.container-links {
+  justify-content: flex-end !important;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 3.5rem;
+  padding: 3rem 0rem;
+  margin-right: 6rem;
+  list-style: none;
+}
+
+.links a {
+  color: #e6edf3;
+  text-decoration: none;
+}
+
+.brand-name {
+  color: #e6edf3;
+  padding-left: 6rem;
+  margin: 0rem;
+}
+
+.brand-name a {
+  color: #e6edf3;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.brand-name a:hover {
+  color: #e6edf3;
+}
+
+.title-container {
+  margin: 5rem 0px 3rem 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+}
+
+.my-btn {
+  background-color: #0a9103;
+  border: none;
+  padding: 1.5rem 0px;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.my-btn:hover {
+  transform: scale(1.05);
+}
+
+.button-link {
+  list-style: none;
+}
+
+.button-link a {
+  padding: 1.5px 3rem;
+  color: #e6edf3;
+  text-decoration: none;
+}
+
+.button-link a:hover {
+  text-decoration: none;
+  color: #e6edf3;
+  text-decoration: none;
+}
+
+.posts-container {
+  margin-top: 40px;
+}
+
+.title-contents {
+  font-size: 60px;
+  color: #e6edf3;
+  text-align: center;
+}
+
+.my-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.post-list-container, .post-list-button-container {
+  padding: 0px;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.post-list li {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 20px;
+  border-top: 1px solid #21262d;
+}
+
+.post-list a {
+  text-decoration: none;
+  color: #e6edf3;
+  font-size: 30px;
+}
+
+.post-list-button {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.post-list-button li {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  margin-top: 20px;
+  border-top: 1px solid #21262d;
+}
+
+.post-list-button a {
+  border-radius: 12px;
+  padding: 5.5px;
+  background-color: #0a9103;
+  text-decoration: none;
+  color: #e6edf3;
+  font-size: 22.5px;
+}
+
+.post-title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.post-content {
+  font-size: 20.25px;
+  margin-top: 2rem;
+}

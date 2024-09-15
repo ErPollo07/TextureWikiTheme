@@ -1,0 +1,41 @@
+
+.title-container {
+    margin: 5rem 0px 3rem 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
+.my-btn {
+    background-color: $buttons-active;
+    border: none;
+    padding: 1.5rem 0px;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.my-btn:hover {
+    transform: scale(1.05);
+}
+
+.button-link {
+    list-style: none;
+}
+
+.button-link a {
+    padding: 1.5px 3rem;
+    color: $text;
+    text-decoration: none;
+}
+
+.button-link a:hover {
+    text-decoration: none;
+    color: $text;
+    text-decoration: none;
+}

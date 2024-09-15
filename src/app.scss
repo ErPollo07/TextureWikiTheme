@@ -1,0 +1,53 @@
+/* In this file we write:
+    varibles;
+    file which needs to be imported;
+*/
+
+
+/* Installation guide:
+https://laravel-mix.com/docs/6.0/installation
+seguire questo link fino a step 2 completo
+poi creare il file webpack.mix.js
+scrivere dentro a quest'ultimo
+"""
+let mix = require('laravel-mix');
+
+mix
+ .js('src/app.js', 'dist')
+ .sass('src/app.scss', 'dist');
+"""
+
+Poi andare nel file package.json
+e scrivere nella sezione script (al posto di quello che c'e' gia' scrito)
+quello che c'e' scritto nella sezione after di questa pagnia
+https://laravel-mix.com/docs/6.0/upgrade
+Poi scrivere il comando >> npm run watch
+nel terminale
+*/
+
+/* VARIABLES */
+$h1: 75px;
+$h2: calc($h1 * 0.8);
+$h3: calc($h1 * 0.7);
+$h4: calc($h1 * 0.6);
+$h5: calc($h1 * 0.5);
+$h6: calc($h1 * 0.4);
+$h7: calc($h1 * 0.3);
+$p: calc($h1 * 0.27);
+
+// Colors
+$text: #e6edf3;
+$text-secondary: #848d97;
+$header-border: #21262d;
+$buttons-active: #0a9103;
+$buttons-disable: #0a9103;
+$buttons-hover: #0fc106;
+$background: #0d1117;
+
+/* IMPORTS */
+@import 'global-class';
+@import 'tags';
+@import 'header';
+@import 'front-page';
+@import 'archive';
+@import 'single';
