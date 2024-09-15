@@ -26,17 +26,17 @@ nel terminale
 /* IMPORTS */
 /* Colors */
 .text {
-  color: #e6edf3;
+  color: #d0d0d0;
 }
 
 .background {
-  background-color: #0d1117 !important;
+  background-color: #19212c !important;
 }
 
 /* Font size */
 .h7 {
   font-size: 22.5px;
-  color: #e6edf3;
+  color: #d0d0d0;
 }
 
 /* Alignment */
@@ -88,21 +88,20 @@ nel terminale
   align-items: center;
 }
 
-/* SHORTCODES */
-.admin_email {
-  color: #e6edf3;
-}
-
 html {
   font-size: 16px;
 }
 
 body {
-  background-color: #0d1117;
+  background-color: #19212c;
 }
 
 p, ul, li {
-  color: #e6edf3;
+  color: #d0d0d0;
+}
+
+p {
+  font-size: 18.75px;
 }
 
 /* Headers */
@@ -111,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #e6edf3;
+  color: #d0d0d0;
   margin-bottom: 1.5rem;
 }
 
@@ -121,12 +120,12 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 60px;
-  border-bottom: 1px solid #21262d;
+  border-bottom: 1px solid #344457;
 }
 
 h3, .h3 {
   font-size: 52.5px;
-  border-bottom: 1px solid #21262d;
+  border-bottom: 1px solid #344457;
 }
 
 h4, .h4 {
@@ -155,24 +154,24 @@ h6, .h6 {
 }
 
 .links a {
-  color: #e6edf3;
+  color: #d0d0d0;
   text-decoration: none;
 }
 
 .brand-name {
-  color: #e6edf3;
+  color: #d0d0d0;
   padding-left: 6rem;
   margin: 0rem;
 }
 
 .brand-name a {
-  color: #e6edf3;
+  color: #d0d0d0;
   padding: 0rem;
   margin: 0rem;
 }
 
 .brand-name a:hover {
-  color: #e6edf3;
+  color: #d0d0d0;
 }
 
 .title-container {
@@ -206,13 +205,13 @@ h6, .h6 {
 
 .button-link a {
   padding: 1.5px 3rem;
-  color: #e6edf3;
+  color: #d0d0d0;
   text-decoration: none;
 }
 
 .button-link a:hover {
   text-decoration: none;
-  color: #e6edf3;
+  color: #d0d0d0;
   text-decoration: none;
 }
 
@@ -222,7 +221,7 @@ h6, .h6 {
 
 .title-contents {
   font-size: 60px;
-  color: #e6edf3;
+  color: #d0d0d0;
   text-align: center;
 }
 
@@ -249,12 +248,12 @@ h6, .h6 {
   padding-top: 10px;
   padding-left: 10px;
   margin-top: 20px;
-  border-top: 1px solid #21262d;
+  border-top: 1px solid #344457;
 }
 
 .post-list a {
   text-decoration: none;
-  color: #e6edf3;
+  color: #d0d0d0;
   font-size: 30px;
 }
 
@@ -272,7 +271,7 @@ h6, .h6 {
   justify-content: center;
   padding-top: 10px;
   margin-top: 20px;
-  border-top: 1px solid #21262d;
+  border-top: 1px solid #344457;
 }
 
 .post-list-button a {
@@ -280,7 +279,7 @@ h6, .h6 {
   padding: 5.5px;
   background-color: #0a9103;
   text-decoration: none;
-  color: #e6edf3;
+  color: #d0d0d0;
   font-size: 22.5px;
 }
 
@@ -291,6 +290,6 @@ h6, .h6 {
 }
 
 .post-content {
-  font-size: 20.25px;
+  font-size: 18.75px;
   margin-top: 2rem;
 }

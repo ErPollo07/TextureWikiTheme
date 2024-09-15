@@ -33,16 +33,16 @@ $h4: calc($h1 * 0.6);
 $h5: calc($h1 * 0.5);
 $h6: calc($h1 * 0.4);
 $h7: calc($h1 * 0.3);
-$p: calc($h1 * 0.27);
+$p: calc($h1 * 0.25);
 
 // Colors
-$text: #e6edf3;
+$text: #d0d0d0;
 $text-secondary: #848d97;
-$header-border: #21262d;
+$header-border: #344457;
 $buttons-active: #0a9103;
 $buttons-disable: #0a9103;
 $buttons-hover: #0fc106;
-$background: #0d1117;
+$background: #19212c;
 
 /* IMPORTS */
 @import 'global-class';
