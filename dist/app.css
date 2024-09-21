@@ -88,6 +88,13 @@ nel terminale
   align-items: center;
 }
 
+.page-title {
+  text-align: center;
+  color: #f0f6ee;
+  font-size: 75px;
+  margin-bottom: 3rem;
+}
+
 html {
   font-size: 16px;
 }
@@ -292,4 +299,38 @@ h6, .h6 {
 .post-content {
   font-size: 18.75px;
   margin-top: 2rem;
+}
+
+.page-wrapping {
+  display: flex;
+  justify-content: center;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: center;
+}
+
+.section-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Allinea i due div al bordo superiore */
+  margin-bottom: 5rem;
+}
+
+.section-title, .section-paragraph {
+  color: #f0f6ee;
+  text-align: center;
+}
+
+.section-title {
+  width: 30%;
+  font-size: 60px;
+}
+
+.section-paragraph {
+  width: 70%;
+  font-size: 30px;
 }

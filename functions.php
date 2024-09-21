@@ -80,7 +80,7 @@ function set_settings() {
     add_settings_section(
         'front_page_section',           // ID della sezione
         'Front Page Settings',          // Titolo della sezione
-        'desc_front_page_section',      // Funzione di callback per la descrizione della sezione
+        'void_callback',                // Funzione di callback per la descrizione della sezione
         $setting_page_slug              // Pagina in cui aggiungere la sezione
     );
 
