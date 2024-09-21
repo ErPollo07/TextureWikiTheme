@@ -8,8 +8,12 @@ Template Name: Contact us
 
 <div class="page-wrapper">
 
-    <div class="page-cont">
+    <div class="content-wrapper-80">
     
+        <div class="page-title">
+            <?php the_title(); ?>
+        </div>
+
         <?php the_content(); ?>
     
     </div>

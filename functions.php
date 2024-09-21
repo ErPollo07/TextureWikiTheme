@@ -125,9 +125,7 @@ function get_admin_email() {
 
     $email = get_option('admin_email');
 
-    return '<p class="inline">[</p>
-            <p class="inline">' . $email . '</p>
-            <p class="inline">]</p><p></p>';
+    return '<p>[ ' . $email . ' ]</p>';
 }
 add_shortcode('admin_email', 'get_admin_email');
 

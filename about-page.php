@@ -26,8 +26,8 @@ Call to Action
 Ready to create your own texture pack? Start with my guides and feel free to contact me with any questions!
 -->
 
-<div class="page-wrapping">
-    <div class="content-wrapper">
+<div class="page-wrapper">
+    <div class="content-wrapper-80">
         <div class="page-title">
             <?php the_title(); ?>
         </div>

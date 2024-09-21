@@ -76,16 +76,30 @@ nel terminale
 }
 
 /* Page and post classes */
-.page-cont {
-  justify-self: center;
-  width: 65%;
-}
-
 .page-wrapper {
   display: flex;
+  justify-content: center;
+}
+
+.content-wrapper-80 {
+  display: flex;
   flex-direction: column;
-  width: 100%;
-  align-items: center;
+  width: 80%;
+  justify-content: center;
+}
+
+.content-wrapper-65 {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  justify-content: center;
+}
+
+.content-wrapper-50 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
 }
 
 .page-title {
@@ -299,18 +313,6 @@ h6, .h6 {
 .post-content {
   font-size: 18.75px;
   margin-top: 2rem;
-}
-
-.page-wrapping {
-  display: flex;
-  justify-content: center;
-}
-
-.content-wrapper {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  justify-content: center;
 }
 
 .section-about {

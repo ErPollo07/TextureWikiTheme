@@ -4,7 +4,7 @@
 <?php get_header(); ?>
 
 <div class="page-wrapper">
-    <div class="page-cont">
+    <div class="content-wrapper-80">
         <div class="title-container align-items-center text">
             <!-- TITLE -->
             <h1>

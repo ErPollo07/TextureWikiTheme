@@ -11,10 +11,8 @@ Template Name: Archive
 
 
 <div class="page-wrapper">
-    
-    <div class="page-cont">
-
-        <div class="title-contents">Explore</div>
+    <div class="content-wrapper-80">
+        <div class="page-title">Explore</div>
 
         <section class="my-row posts-container">
             
